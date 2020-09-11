@@ -1,3 +1,4 @@
+/* @pjs preload=”elephant.png”; */
 int startX = 200;
 int startY = 160;
 int endX = 300;
