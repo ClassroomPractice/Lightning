@@ -7,13 +7,9 @@ void setup()
 {
   size(300,300);
   background(23,139,228);
-  //String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
-  //@pjs preload = url;
   strokeWeight(3);
   PImage img;
-  String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
-  @pjs preload = url;
-  img = loadImage(url);
+  img = loadImage("elephant.png");
   image(img,200,150);
 }
 
@@ -21,7 +17,7 @@ void draw()
 {
   
   
-  /*int increaseY = 0;
+  int increaseY = 0;
   int increaseX = 0;
   int red = (int)(Math.random() * 256);
   int green = (int)(Math.random() * 256);
@@ -36,7 +32,7 @@ void draw()
     line(startX,startY,endX,endY);
     startX = endX;
     startY = endY;
-  }*/
+  }
 }
 void mousePressed()
 {
